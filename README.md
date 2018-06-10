@@ -3,10 +3,10 @@
 # Host OS:
   CentOS 7 or RedHat EL 7.4+
 # Components:
-  etcd: 3.2.11
-  flannel: 0.5.5
-  kubernetes: 1.9.8
-  docker: 17.3.2
+  * etcd: 3.2.11
+  * flannel: 0.5.5
+  * kubernetes: 1.9.8
+  * docker: 17.3.2
 # Features:
   TLS/SSL enabled with self-signed certificates
   Restriction on access to API Server (kubeconfig with certificates and keys is required) (This is turned off for easy access to dashboard. Can be turned on manually)
