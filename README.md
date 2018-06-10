@@ -7,9 +7,11 @@
   * flannel: 0.5.5
   * kubernetes: 1.9.8
   * docker: 17.3.2
+
 # Features:
   TLS/SSL enabled with self-signed certificates
   Restriction on access to API Server (kubeconfig with certificates and keys is required) (This is turned off for easy access to dashboard. Can be turned on manually)
+
 # Usage
 * Configure settings.sh, main items:
   1. ETCD_SERVER_IP: etcd loadbalancer IP or one of the IPs in ETCD_IPS
