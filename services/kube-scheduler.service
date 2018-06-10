@@ -1,0 +1,15 @@
+[Unit]
+Description=Kubernetes Scheduler
+Documentation=https://github.com/kubernetes/kubernetes
+
+[Service]
+Type=notify
+ExecStart=/usr/local/bin/kube-scheduler \
+  --leader-elect=true \
+  --master=http://${API_SERVER_IP}:8080 \
+  --v=2
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,14 @@
+{
+  "CN": "system:node:${WORKER_HOSTNAME}",
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  },
+  "names": [{
+    "C": "${CERT_C}",
+    "L": "${CERT_L}",
+    "O": "system:nodes",
+    "OU": "${CLUSTER_NAME}",
+    "ST": "${CERT_ST}"
+  }]
+}

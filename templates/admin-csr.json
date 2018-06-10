@@ -1,0 +1,14 @@
+{
+  "CN": "admin",
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  },
+  "names": [{
+    "C": "${CERT_C}",
+    "L": "${CERT_L}",
+    "O": "system:masters",
+    "OU": "${CLUSTER_NAME}",
+    "ST": "${CERT_ST}"
+  }]
+}

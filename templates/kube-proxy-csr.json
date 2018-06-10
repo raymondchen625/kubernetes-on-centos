@@ -1,0 +1,14 @@
+{
+  "CN": "system:kube-proxy",
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  },
+  "names": [{
+    "C": "${CERT_C}",
+    "L": "${CERT_L}",
+    "O": "system:node-proxier",
+    "OU": "${CLUSTER_NAME}",
+    "ST": "${CERT_ST}"
+  }]
+}
