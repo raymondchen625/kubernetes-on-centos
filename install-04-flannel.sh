@@ -30,7 +30,7 @@ flanneldStatus=$(systemctl status -l flanneld | sed -n -e 's/.*Active:\s*\([a-z]
 if [ "$flanneldStatus" != "active" ]; then
 	#Install flanneld
 	echo "Installing flanneld..."
-	yum -y install binaries/flannel-0.5.5-8.fc25.x86_64.rpm
+	yum -y install binaries/flannel-0.7.1-4.el7.x86_64.rpm
 
 	#Configure flanneld
 	echo "Configuring flanneld..."

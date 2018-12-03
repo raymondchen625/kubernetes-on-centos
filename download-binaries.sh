@@ -42,7 +42,7 @@ verifyBinary docker-ce-17.03.2.ce-1.el7.centos.x86_64.rpm 0ead9d0db5c15e3123d319
 verifyBinary docker-ce-selinux-17.03.2.ce-1.el7.centos.noarch.rpm 07e6cbaf0133468769f5bc7b8b14b2ef72b812ce62948be0989a2ea28463e4df https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce-selinux-17.03.2.ce-1.el7.centos.noarch.rpm
 verifyBinary etcd a56818292bcdc38b298e03f73a9101628438e5d99bb08155db063a8f557bd2cb https://github.com/coreos/etcd/releases/download/v3.2.11/etcd-v3.2.11-linux-amd64.tar.gz
 verifyBinary etcdctl 3a5ee5a41c813938d2dfea70c18f4f09e214a5460c37a4ab96e49b1db6b0f724 https://github.com/coreos/etcd/releases/download/v3.2.11/etcd-v3.2.11-linux-amd64.tar.gz
-verifyBinary flannel-0.5.5-8.fc25.x86_64.rpm 77b0934194d0103ca0cdc376df1998c6758388f17636d882909d40250fd84918 https://rpmfind.net/linux/fedora/linux/releases/25/Everything/x86_64/os/Packages/f/flannel-0.5.5-8.fc25.x86_64.rpm
+verifyBinary flannel-0.7.1-4.el7.x86_64.rpm c792ae099139b2cba21f0f2726032e6b02dec6f1248e3eed8fb87a206319126c http://rpmfind.net/linux/centos/7.6.1810/extras/x86_64/Packages/flannel-0.7.1-4.el7.x86_64.rpm
 verifyBinary ipset-6.29-1.el7.x86_64.rpm 579fc11b5a113b69cf6721478c71d83104cdc894365318bd1fca2c9b577b9a04 https://rpmfind.net/linux/centos/7.5.1804/os/x86_64/Packages/ipset-6.29-1.el7.x86_64.rpm
 verifyBinary kube-apiserver 94b8750e68c53eea448a756e2369c4d1a0e2ccfb58129bdbd011f05592d07af2 https://storage.googleapis.com/kubernetes-release/release/v1.9.8/bin/linux/amd64/kube-apiserver
 verifyBinary kube-controller-manager 1218d4b63735f184ef8f6e66ec46cd438b0578d3bf64aa0e599f17ffb3abd1e3 https://storage.googleapis.com/kubernetes-release/release/v1.9.8/bin/linux/amd64/kube-controller-manager
