@@ -3,10 +3,10 @@
 # Host OS:
   CentOS 7 or RedHat EL 7.4+
 # Components:
-  * etcd: 3.2.11
+  * etcd: 3.3.12
   * flannel: 0.5.5
-  * kubernetes: 1.9.8
-  * docker: 17.3.2
+  * kubernetes: 1.14.0
+  * docker: 18.09.4
 
 # Features:
   TLS/SSL enabled with self-signed certificates

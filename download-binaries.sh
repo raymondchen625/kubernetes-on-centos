@@ -38,17 +38,17 @@ pushd binaries >> /dev/null
 verifyBinary cfssl_linux-amd64 eb34ab2179e0b67c29fd55f52422a94fe751527b06a403a79325fed7cf0145bd https://pkg.cfssl.org/R1.2/cfssl_linux-amd64
 verifyBinary cfssljson_linux-amd64 1c9e628c3b86c3f2f8af56415d474c9ed4c8f9246630bd21c3418dbe5bf6401e https://pkg.cfssl.org/R1.2/cfssljson_linux-amd64
 verifyBinary conntrack-tools-1.4.4-3.el7_3.x86_64.rpm 2a2ca9f95b1506f519b2fd19891d4970529ebedc44e5203dd1cf46f9b4f3b7ba https://rpmfind.net/linux/centos/7.5.1804/os/x86_64/Packages/conntrack-tools-1.4.4-3.el7_3.x86_64.rpm
-verifyBinary docker-ce-17.03.2.ce-1.el7.centos.x86_64.rpm 0ead9d0db5c15e3123d3194f71f716a1d6e2a70c984b12a5dde4a72e6e483aca https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce-17.03.2.ce-1.el7.centos.x86_64.rpm
-verifyBinary docker-ce-selinux-17.03.2.ce-1.el7.centos.noarch.rpm 07e6cbaf0133468769f5bc7b8b14b2ef72b812ce62948be0989a2ea28463e4df https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce-selinux-17.03.2.ce-1.el7.centos.noarch.rpm
-verifyBinary etcd a56818292bcdc38b298e03f73a9101628438e5d99bb08155db063a8f557bd2cb https://github.com/coreos/etcd/releases/download/v3.2.11/etcd-v3.2.11-linux-amd64.tar.gz
-verifyBinary etcdctl 3a5ee5a41c813938d2dfea70c18f4f09e214a5460c37a4ab96e49b1db6b0f724 https://github.com/coreos/etcd/releases/download/v3.2.11/etcd-v3.2.11-linux-amd64.tar.gz
+verifyBinary docker-ce-18.09.4-3.el7.x86_64.rpm a7b1a96fb1ba68a4f870bf9d7120c16e6078e267e82125156fb75529e341bc7b https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce-18.09.4-3.el7.x86_64.rpm
+verifyBinary docker-ce-cli-18.09.4-3.el7.x86_64.rpm 6069f7103dfc005ba100c2e3b1f873beeb79e1d89d3d0d0693742288b6a0e563 https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce-cli-18.09.4-3.el7.x86_64.rpm
+verifyBinary docker-ce-selinux-17.03.3.ce-1.el7.noarch.rpm 50d75b9412e1a3056bfa8f0436114d1ff8c1073f916d1e9b8ba46bb49024ee86 https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce-selinux-17.03.3.ce-1.el7.noarch.rpm
+verifyBinary etcd-v3.3.12-linux-amd64.tar.gz dc5d82df095dae0a2970e4d870b6929590689dd707ae3d33e7b86da0f7f211b6 https://github.com/etcd-io/etcd/releases/download/v3.3.12/etcd-v3.3.12-linux-amd64.tar.gz
 verifyBinary flannel-0.7.1-4.el7.x86_64.rpm c792ae099139b2cba21f0f2726032e6b02dec6f1248e3eed8fb87a206319126c http://rpmfind.net/linux/centos/7.6.1810/extras/x86_64/Packages/flannel-0.7.1-4.el7.x86_64.rpm
 verifyBinary ipset-6.29-1.el7.x86_64.rpm 579fc11b5a113b69cf6721478c71d83104cdc894365318bd1fca2c9b577b9a04 https://rpmfind.net/linux/centos/7.5.1804/os/x86_64/Packages/ipset-6.29-1.el7.x86_64.rpm
-verifyBinary kube-apiserver 94b8750e68c53eea448a756e2369c4d1a0e2ccfb58129bdbd011f05592d07af2 https://storage.googleapis.com/kubernetes-release/release/v1.9.8/bin/linux/amd64/kube-apiserver
-verifyBinary kube-controller-manager 1218d4b63735f184ef8f6e66ec46cd438b0578d3bf64aa0e599f17ffb3abd1e3 https://storage.googleapis.com/kubernetes-release/release/v1.9.8/bin/linux/amd64/kube-controller-manager
-verifyBinary kube-proxy cdccb8e04bc43922402553c36e60b841bf74464892b1e1278723b73da4ada376 https://storage.googleapis.com/kubernetes-release/release/v1.9.8/bin/linux/amd64/kube-proxy
-verifyBinary kube-scheduler c1cab313eaeeee1562161b06d941efbba3633f3261ceb45b86018f843e3dccbf https://storage.googleapis.com/kubernetes-release/release/v1.9.8/bin/linux/amd64/kube-scheduler
-verifyBinary kubectl dd7cdde8b7bc4ae74a44bf90f3f0f6e27206787b27a84df62d8421db24f36acd https://storage.googleapis.com/kubernetes-release/release/v1.9.8/bin/linux/amd64/kubectl
-verifyBinary kubelet afc840d987ae791e245556c36b443281db65f893cd920f6f9dfbf1ef75211881 https://storage.googleapis.com/kubernetes-release/release/v1.9.8/bin/linux/amd64/kubelet
+verifyBinary kube-apiserver 6a27afb355a9dda9dddcdbe3c2d031a5c843036cdc2f453841992c111978e008 https://storage.googleapis.com/kubernetes-release/release/v1.14.0/bin/linux/amd64/kube-apiserver
+verifyBinary kube-controller-manager 00386973f990bfd90fbd944a02111d0b92179ed7612414e1aa7f836dd177659e https://storage.googleapis.com/kubernetes-release/release/v1.14.0/bin/linux/amd64/kube-controller-manager
+verifyBinary kube-proxy 21fa27ad16f56b28fa6d57a8be84174fd93daf6ccf90a1f40e3924df0fe69468 https://storage.googleapis.com/kubernetes-release/release/v1.14.0/bin/linux/amd64/kube-proxy
+verifyBinary kube-scheduler 860f3bfbf81c7e5834fc6db1806a54c0b44ab66d6d0e89572b07234e346e7b8d https://storage.googleapis.com/kubernetes-release/release/v1.14.0/bin/linux/amd64/kube-scheduler
+verifyBinary kubectl 99ade995156c1f2fcb01c587fd91be7aae9009c4a986f43438e007265ca112e8 https://storage.googleapis.com/kubernetes-release/release/v1.14.0/bin/linux/amd64/kubectl
+verifyBinary kubelet bcd3ae191947e55de6ee9f47ff9f68a711149d20b46ca4342aac367ded4ffc85 https://storage.googleapis.com/kubernetes-release/release/v1.14.0/bin/linux/amd64/kubelet
 verifyBinary socat-1.7.3.2-2.el7.x86_64.rpm 4430a4013892bc2c51d79358b16032e95269d7bc66c604cbdee89a1559c1c617 https://rpmfind.net/linux/centos/7.5.1804/os/x86_64/Packages/socat-1.7.3.2-2.el7.x86_64.rpm
 popd > /dev/null > /dev/null
